@@ -53,9 +53,9 @@ question_6 = {
   sum_6 = gets.chomp
 total = sum_1.to_i + sum_2.to_i + sum_3.to_i + sum_4.to_i + sum_4.to_i + sum_5.to_i + sum_6.to_i 
  if total <= 10 
-   puts "You are highly competitive and self-driven. Your determination and hard work-ethic will take you far in life.".cyan
+   puts "You are highly competitive and self-driven. Your determination and hard work-ethic will take you far in life."
    elsif total <= 14 
-    puts "You are creative, artistic, and easy-going. You also are very outgoing and don't care what others think of you.".yellow
+    puts "You are creative, artistic, and easy-going. You also are very outgoing and don't care what others think of you."
     elsif total <= 20
     puts "You are more shy, and enjoy time being alone.
     You are very firm in your beliefs as a result of
