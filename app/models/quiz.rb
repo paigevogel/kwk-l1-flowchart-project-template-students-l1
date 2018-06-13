@@ -29,26 +29,26 @@ question_6 = {
   "Any throwback songs" => 2,
   "Soft pop or classical" => 3
 }
-  puts "Welcome to the Personality Calculator".cyan
+  puts "Welcome to the Personality Calculator"
   puts ""
   puts "Type in the number associated with each of your answers."
   puts "Begin"
-  puts "What is your favorite thing to do?".cyan
+  puts "What is your favorite thing to do?"
   puts question_1
   sum_1 = gets.chomp
-  puts "What's your style?".cyan
+  puts "What's your style?"
   puts question_2
   sum_2 = gets.chomp
-  puts "What is your dream career?".cyan
+  puts "What is your dream career?"
   puts question_3
   sum_3 = gets.chomp
-  puts "When talking to people, what do you do?".cyan
+  puts "When talking to people, what do you do?"
   puts question_4
   sum_4 = gets.chomp
-  puts "How do you study?".cyan
+  puts "How do you study?"
   puts question_5
   sum_5 = gets.chomp
-  puts "What type of music do you listen to?".cyan
+  puts "What type of music do you listen to?"
   puts question_6
   sum_6 = gets.chomp
 total = sum_1.to_i + sum_2.to_i + sum_3.to_i + sum_4.to_i + sum_4.to_i + sum_5.to_i + sum_6.to_i 
